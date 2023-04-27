@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar"
 //Pages
 import Home from "./pages/Home"
 import TextToNatoAlphabet from "./pages/TextToNatoAlphabet"
+import SlugifyString from "./pages/SlugifyString"
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
             path='/text-to-nato-alphabet'
             element={<TextToNatoAlphabet />}
           />
+          <Route path='/slugify-string' element={<SlugifyString />} />
         </Routes>
       </div>
       <Navbar />

@@ -62,7 +62,7 @@ const TextToNatoAlphabet = () => {
             <p className='break-all'> {regText} </p>
           </div>
 
-          <CopyButton text={regText} />
+          <CopyButton text={regText} className='mt-10' />
         </div>
       )}
     </div>

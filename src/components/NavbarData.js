@@ -6,9 +6,9 @@ const NavbarData = [
         category: 'converter'
     },
     {
-        title: 'Device Info',
-        path: '/device-info',
-        icon: 'bi bi-cpu-fill',
+        title: 'Slugify String',
+        path: '/slugify-string',
+        icon: 'bi bi-text-indent-left',
         category: 'web'
     }
 ]
